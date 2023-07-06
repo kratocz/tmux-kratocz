@@ -9,6 +9,7 @@ This is a tmux plugin defining my favorite key bindings.
 ### Features
 
 * Change current window index in the list by pressing `prefix + <` or `prefix + >` (both are repeatable)
+* Hide uptime if displayed by the [gpakosz/.tmux](https://github.com/gpakosz/.tmux)
 
 
 ### Installation with [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) or [gpakosz/.tmux](https://github.com/gpakosz/.tmux) (recommended)
