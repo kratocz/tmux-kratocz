@@ -14,7 +14,7 @@ This is a tmux plugin defining my favorite key bindings.
 
 ### Installation with [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) or [gpakosz/.tmux](https://github.com/gpakosz/.tmux) (recommended)
 
-Add plugin to the list of TPM plugins in `.tmux.conf`:
+Add plugin to the list of TPM plugins in `.tmux.conf` (or to `.tmux.conf.local` if you use [gpakosz/.tmux](https://github.com/gpakosz/.tmux)):
 
 ```tmux
 set -g @plugin 'kratocz/tmux-kratocz'
@@ -28,7 +28,7 @@ Clone the repo:
 
     $ git clone https://github.com/kratocz/tmux-kratocz ~/clone/path
 
-Add this line to the bottom of `.tmux.conf`:
+Add this line to the bottom of `.tmux.conf` (or to `.tmux.conf.local` if you use [gpakosz/.tmux](https://github.com/gpakosz/.tmux)):
 
 ```tmux
 run-shell ~/clone/path/kratocz.tmux
