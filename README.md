@@ -10,7 +10,7 @@ This is a tmux plugin defining my favorite key bindings.
 
 * Change current window index in the list by pressing `prefix + <` or `prefix + >` (both are repeatable)
 * Hide uptime if displayed by the [gpakosz/.tmux](https://github.com/gpakosz/.tmux)
-* ``prefix + ` `` = switch to window 0
+* ``prefix + ` `` = switch to window 0 (you can allow window 0 by config line: `set -g base-index 0`)
 * Pane titlebars
 
 ### Installation with [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) or [gpakosz/.tmux](https://github.com/gpakosz/.tmux) (recommended)
