@@ -12,4 +12,4 @@ tmux set-option -gq status-left "$status_left"
 
 # <prefix> ` = switch to window 0 (you can allow window 0 by config line: set -g base-index 0)
 
-tmux bind-key -T prefix "`" "select-window -t :=0"
+tmux bind-key -T prefix '`' select-window -t :=0
