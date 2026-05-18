@@ -17,4 +17,4 @@ tmux bind-key -T prefix '`' select-window -t :=0
 # -- Display pane titlebars --------------------
 
 tmux set -g pane-border-status top
-tmux set -g pane-border-format "#[fg=#{?pane_active,#00afff,#8a8a8a}] #{pane_index} #{pane_title} "
+tmux set -g pane-border-format "#[fg=#{?pane_active,#00afff,#a8a8a8}] #{pane_index} #{pane_title} "
